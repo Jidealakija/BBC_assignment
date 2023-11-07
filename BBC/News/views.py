@@ -6,4 +6,4 @@ from .models import News
 def homepage(request):
     all_news = News.objects.all()
     context = {'all_news': all_news}
-    return render(request, 'news/index.html', context)
+    return render(request, 'News/index.html', context)
