@@ -3,3 +3,4 @@ from News.models import News
 
 
 admin.site.register(News)
+
